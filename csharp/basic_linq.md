@@ -1,6 +1,6 @@
 # Basic Linq
 
-Given the follwing list: 
+Given the following list: 
 ```csharp 
 List<int> numbers = new List<int>(){ 23, 45, 36, 39, 102, 493, 474, 34, 11, 35, 99 };
 ```
