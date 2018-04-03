@@ -1,0 +1,34 @@
+{
+  "exercises": [
+    {
+      "concept": "Event handling",
+      "language": "JavaScript",
+      "instructions": "1. Create three `<h3>` components in your index.html file and add any text you want to each.\n2. Use JavaScript to attach a click event listener to each one.\n3. When the user clicks on any of the components output the content of that one to the Chrome developer console.",
+      "id": 2
+    },
+    {
+      "concept": "Object properties",
+      "language": "JavaScript",
+      "instructions": "Use dot notation to access the value of the key `meaning_of_life` in the following object.\n\n```\nlet hitchhikers_guide = {\n    characters: [\"Zaphod\", \"Arthur\", \"Ford\", \"Trillian\"],\n    catchphrase: \"Don't Panic\",\n    random_facts: {\n        copies_sold: 14000000,\n        formats: [\"radio\", \"TV\", \"film\", \"graphic novel\"],\n        ultimate_answer: {\n            meaning_of_life: 42\n        }\n    }\n};\n```\n\nAssign its value to a variable.\n\n```\nconst lifeMeaning = ???\n```\n",
+      "id": 3
+    },
+    {
+      "concept": "Array iteration",
+      "language": "JavaScript",
+      "instructions": " Loop through this array of objects and console.log \"_name_'s job title is _title_.\"\n\n```\n[\n  {\n    name: \"Bob\",\n    department: \"sales\",\n    title: \"sales manager\"\n  },\n  {\n    name: \"Tina\",\n    department: \"finance\",\n    title: \"director of finance\"\n  },\n  {\n    name: \"Randy\",\n    department: \"IT\",\n    title: \"hardware guy\"\n  },\n  {\n    name: \"Glenda\",\n    department: \"C-suite\",\n    title: \"CEO\"\n  }\n]\n```\n",
+      "id": 4
+    },
+    {
+      "concept": "Array filtering",
+      "language": "JavaScript",
+      "instructions": "1. Filter out elements in the following array that are strings and store them in a new array named `onlyStrings`.\n     `const junk = [45, \"I\", true, null, \"am\", 3.56, \"a\", undefined, { catchphrase: \"Oh hai, Mark\"}, \"JS\", \"rockstar\"]`\n\nHint: You can use the `typeof` operator to determine if something is a string.\n\nhttps://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/typeof\n",
+      "id": 5
+    },
+    {
+      "concept": "Function arguments",
+      "language": "JavaScript",
+      "instructions": "1. Create a function that logs the result of adding two numbers\n\n2. Create a second function called `calculate` that takes three arguments: two numbers and a function\n\n3. Execute the second function and make it output `5`\n",
+      "id": 6
+    }
+  ]
+}

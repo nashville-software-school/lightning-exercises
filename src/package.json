@@ -1,0 +1,19 @@
+{
+  "name": "nss-lightning-exercises",
+  "version": "1.0.0",
+  "description": "Lightning exercises",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nashville-software-school/lightning-exercises.git"
+  },
+  "author": "Steve Brownlee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/nashville-software-school/lightning-exercises/issues"
+  },
+  "homepage": "https://github.com/nashville-software-school/lightning-exercises#readme"
+}

@@ -10,4 +10,3 @@ expected result:
 3) Capitalize 'the', insert a comma after 'teacher' and output "Yoda says, "The greatest teacher, failure is"
 
 `let yoda_quote = ["the", "greatest", "teacher", "failure", "is"]`
-
