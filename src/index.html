@@ -10,11 +10,14 @@
     <link href="./css/form.css" rel="stylesheet">
 </head>
 <body>
+    <h1>Lightning Exercises</h1>
+
+    <button type="button" class="btn btn-primary btn-lg" id="randomize">Randomize!</button>
 
     <form>
         <div class="form-group">
             <label for="concept">Concept</label>
-            <input type="text" class="form-control" id="concept" aria-describedby="conceptHelp" placeholder="Concept">
+            <input type="text" class="form-control" id="concept" aria-describedby="conceptHelp">
             <small id="conceptHelp" class="form-text text-muted">Brief description of learning objective (iteration, functions, async, SQL, etc.)</small>
         </div>
         <div class="form-group">
@@ -27,9 +30,14 @@
             </select>
         </div>
         <div class="form-group">
-            <label for="instructions">Student instructions</label>
-            <textarea rows="50" class="form-control" id="instructions" rows="3"></textarea>
-            <small id="conceptHelp" class="form-text text-muted">Enter in the goal(s) to be achieved by students, and any started code they will need</small>
+            <label for="instructions">Basic instructions</label>
+            <textarea rows="10" class="form-control" id="instructions-basic"></textarea>
+            <small id="conceptHelp" class="form-text text-muted">Enter in the goal to be achieved by students, and any started code they will need</small>
+        </div>
+        <div class="form-group">
+            <label for="instructions">Stretch goal instructions</label>
+            <textarea rows="10" class="form-control" id="instructions-stretch"></textarea>
+            <small id="conceptHelp" class="form-text text-muted">Secondary goals after achieving the first one</small>
         </div>
         <button type="submit" id="submitExercise" class="btn btn-primary">Submit</button>
     </form>
