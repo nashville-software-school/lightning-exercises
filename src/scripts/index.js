@@ -8,8 +8,9 @@ $("#randomize").click(evt => {
         method: "GET",
         url: `http://localhost:8088/exercises`
     }).then(res => {
-        const randomExercise = res[Math.floor(Math.random() * res.length)]
-        console.log(randomExercise);
+        const languageChoice = $("#language-random")
+        const filteredExercises = res.filter(e => e.language === languageChoice.val())
+        const randomExercise = filteredExercises[Math.floor(Math.random() * res.length)]
 
         concept.val(randomExercise.concept)
         language.val(randomExercise.language)

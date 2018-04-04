@@ -12,35 +12,58 @@
 <body>
     <h1>Lightning Exercises</h1>
 
-    <button type="button" class="btn btn-primary btn-lg" id="randomize">Randomize!</button>
 
-    <form>
-        <div class="form-group">
-            <label for="concept">Concept</label>
-            <input type="text" class="form-control" id="concept" aria-describedby="conceptHelp">
-            <small id="conceptHelp" class="form-text text-muted">Brief description of learning objective (iteration, functions, async, SQL, etc.)</small>
+    <div class="card">
+        <div class="card-body">
+            <h3>Get a random exercise</h3>
+            <div class="form-group">
+                <label for="language">Language</label>
+                <select class="form-control" id="language-random">
+                    <option>JavaScript</option>
+                    <option>C#</option>
+                    <option>Ruby</option>
+                    <option>Python</option>
+                </select>
+            </div>
+
+            <button type="button" class="btn btn-primary btn-lg" id="randomize">Randomize!</button>
         </div>
-        <div class="form-group">
-            <label for="language">Language</label>
-            <select class="form-control" id="language">
-                <option>JavaScript</option>
-                <option>C#</option>
-                <option>Ruby</option>
-                <option>Python</option>
-            </select>
+    </div>
+
+    <div class="card">
+        <div class="card-body">
+            <h3>Add/view an exercise</h3>
+            <form>
+                <div class="form-group">
+                    <label for="concept">Concept</label>
+                    <input type="text" class="form-control" id="concept" aria-describedby="conceptHelp">
+                    <small id="conceptHelp" class="form-text text-muted">Brief description of learning objective (iteration, functions, async, SQL, etc.)</small>
+                </div>
+                <div class="form-group">
+                    <label for="language">Language</label>
+                    <select class="form-control" id="language">
+                        <option>JavaScript</option>
+                        <option>C#</option>
+                        <option>Ruby</option>
+                        <option>Python</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="instructions">Basic instructions</label>
+                    <textarea rows="10" class="form-control" id="instructions-basic"></textarea>
+                    <small id="conceptHelp" class="form-text text-muted">Enter in the goal to be achieved by students, and any started code they will need</small>
+                </div>
+                <div class="form-group">
+                    <label for="instructions">Stretch goal instructions</label>
+                    <textarea rows="10" class="form-control" id="instructions-stretch"></textarea>
+                    <small id="conceptHelp" class="form-text text-muted">Secondary goals after achieving the first one</small>
+                </div>
+                <button type="submit" id="submitExercise" class="btn btn-primary">Submit</button>
+            </form>
         </div>
-        <div class="form-group">
-            <label for="instructions">Basic instructions</label>
-            <textarea rows="10" class="form-control" id="instructions-basic"></textarea>
-            <small id="conceptHelp" class="form-text text-muted">Enter in the goal to be achieved by students, and any started code they will need</small>
-        </div>
-        <div class="form-group">
-            <label for="instructions">Stretch goal instructions</label>
-            <textarea rows="10" class="form-control" id="instructions-stretch"></textarea>
-            <small id="conceptHelp" class="form-text text-muted">Secondary goals after achieving the first one</small>
-        </div>
-        <button type="submit" id="submitExercise" class="btn btn-primary">Submit</button>
-    </form>
+    </div>
+
+
 
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>

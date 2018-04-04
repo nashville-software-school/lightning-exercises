@@ -41,6 +41,13 @@
       "instructions_basic": "Using Javascript, create a variable to hold your last name. Using the if-else statement, do the following: If your last name has 7 or more letters, console log \"I can't pronounce this last name\". If your last name has less than 7 characters, console log your last name.",
       "instructions_stretch": "Create a new repository on Github and push the code you wrote up to Github",
       "id": 7
+    },
+    {
+      "concept": "Function arguments",
+      "language": "JavaScript",
+      "instructions_basic": "Create a function called `go` that takes 2 arguments: \n1. direction (forwards, backwards, etc.)\n1. speed (mph).\n\nThe function, when invoked, will print out the following in your console (for example): `The car is moving forward, at 25 mph.`",
+      "instructions_stretch": "Add a condition inside the function to check if the speed is greater than 75 mph. If it is, add an additional message of SLOW DOWN!\n\nExample:\n\nThe car is moving forward at 82 mph\nSLOW DOWN!",
+      "id": 8
     }
   ]
 }
