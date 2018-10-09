@@ -55,6 +55,13 @@
       "instructions_basic": "Given the following set of data about chicken birth rates, you need to filter out the objects where the birth rate value is greater than 15 per 1000 chickens for that year. Store the good years in a new array named `bestYears`.\n\n```\nconst birthRates = [\n  { year: 1969, birthRate: 13}, \n  { year: 1970, birthRate: 16}, \n  { year: 1971, birthRate: 15}, \n  { year: 1972, birthRate: 11}, \n  { year: 1973, birthRate: 18}, \n  { year: 1974, birthRate: 17}, \n  { year: 1975, birthRate: 9}\n]\n```",
       "instructions_stretch": "Determine the average birth rate over all years in the original data set.",
       "id": 9
+    },
+    {
+      "concept": "",
+      "language": "Python",
+      "instructions_basic": "Write a function that takes a list and a number as args. \nThe number parameter should have a default value.\nIn the function body, loop over the list and output the items. \nUse slice to loop through only the first n items in the array. n = the value of the second argument. \nTry it out! Execute the function both with and without passing in a value for the number parameter",
+      "instructions_stretch": "",
+      "id": 10
     }
   ]
 }
