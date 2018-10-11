@@ -1,4 +1,4 @@
-Loop through this object and add each customer object's key as an ID. Log the results.
+Loop through this object and add each customer object's key as a property called "id". Log the results.
 
 ```
 let customers = {
