@@ -1,5 +1,5 @@
 * Clone the Grunt-Browserify-Boilerplate
-  * Remember to npm install and run grunt
+  * Remember to `npm install`, then run `npm start`
 * In `main.js` import the domComponent package
   * `import DOMComponent from "nss-domcomponent"`
 * Define 2 subclasses of the DOMComponent class
