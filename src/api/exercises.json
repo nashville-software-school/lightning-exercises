@@ -62,6 +62,55 @@
       "instructions_basic": "Write a function that takes a list and a number as args. \nThe number parameter should have a default value.\nIn the function body, loop over the list and output the items. \nUse slice to loop through only the first n items in the array. n = the value of the second argument. \nTry it out! Execute the function both with and without passing in a value for the number parameter",
       "instructions_stretch": "",
       "id": 10
+    },
+    {
+      "concept": "First order functions and arguments",
+      "language": "JavaScript",
+      "instructions_basic": "1. Create a function named `add` that logs the result of adding two numbers\n2. Invoke the function and pass two argument values",
+      "instructions_stretch": "1. Create a second function called `calculate` that takes three arguments: two numbers and a function. Inside the `calculate` function, invoke the function that was passed in as an argument and specify the other two arguments as its parameters.\n2. Invoke `calculate()` and pass in the the two values and the reference to the `add` function.",
+      "id": 11
+    },
+    {
+      "concept": "Function return values",
+      "language": "JavaScript",
+      "instructions_basic": "1. Write a function named `petType` that takes a string of a dog breed as an argument (like 'border collie').\n2. Have the function return \"my favorite dog breed is\" plus the passed in string. If no argument is passed to the function, return \"I like cats\".\n3. Invoke the function and store its return value in a variable.\n4. After you have invoked the function, `console.log()` the string \"When it comes to pets, {return value of petType}\".\n\n",
+      "instructions_stretch": "1. Take the `console.log()` statement you already have and place it in another function named `petMessage()`.\n2. Ensure that you message \"When it comes to pets...\" still gets output in the console.",
+      "id": 12
+    },
+    {
+      "concept": "Basic factory function",
+      "language": "JavaScript",
+      "instructions_basic": "1. In your HTML, define an `<article>` element with an id of `contactList`\n2. Create a function called `createContact`.  The function should return a new object with three properties: `name`, `title`, `email`.\n3. Design `createContact` to accept three arguments, which will be used to make the object.\n",
+      "instructions_stretch": "1. Write another function named `displyContact`. Design it to accept a contact object as an argument.\n2. Use `document.querySelector()` and `innerHTML += ...` to add a new `<section>` element as a child to your `<article>`.\n3. The `<section>` should have a class of `contact`.\n4. The contact should display the name of the contact in an `<h1>` element, and the title as an `<h2>` element, and the email in a `<div>` element",
+      "id": 13
+    },
+    {
+      "concept": "Array reverse, join, and map",
+      "language": "JavaScript",
+      "instructions_basic": "Use your Google fu, or look in the [MDN documentation](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array#), to find a way to output the string \"I am a rockstar ninja unicorn JS dev\" from this array.\n\nYou will need to reverse the order of the strings in the array and then join them together into a single string.\n\n```js\nlet hyperbole = [\"dev\", \"JS\", \"unicorn\", \"ninja\", \"rockstar\", \"a\", \"am\", \"I\"]\n```\n",
+      "instructions_stretch": "1. See if you can use the `map()` array method to convert all of the strings to uppercase.\n\nhttps://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/toUpperCase",
+      "id": 14
+    },
+    {
+      "concept": "Representing data",
+      "language": "JavaScript",
+      "instructions_basic": "Take the data below and represent it as each of these data structures.\n\n1. A string\n2. An object\n3. An array\n\n```\n\"lunch\"\n\"peanut butter and jelly\"\n\"whole wheat\"\n\"grape juice\"\n\"apple\"\n```\n",
+      "instructions_stretch": "Try out a relatively new feature of JavaScript called a `Set()`. Add each of those strings to a Set and then `console.log()` the Set.\n\nhttps://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set",
+      "id": 15
+    },
+    {
+      "concept": "String templates",
+      "language": "JavaScript",
+      "instructions_basic": "Use string template literal syntax to create the following sentence from the following variables:\n\n```js\nconst age = 30\nconst timeSpan = 25\nconst futureAge = age + timeSpan\nconst name = \"Biff\"\nconst generationStereotype = \"millenial\"\nconst dadJoke = \"milleni-old\"\n```\n\nYour sentence should look like this.\n\n\"Hi. My name is Biff, and I'm 30 years old. They say that makes me a millenial. In 25 years I'll be 55! I guess that means I'll be a milleni-old then. Ha ha!\"\n",
+      "instructions_stretch": "",
+      "id": 16
+    },
+    {
+      "concept": "Function return values",
+      "language": "JavaScript",
+      "instructions_basic": "1. Design a function named `evenOrOdd` that take a single number as an argument.\n2. It should return the string \"Even\" if the number is evenly divisible by two.\n3. It should return the string \"Odd\" if the number is not evenly divisible by two.\n\nUse the modulo - or remainder - operator in JavaScript to accomplish this.\nhttps://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#Remainder_()",
+      "instructions_stretch": "1. Create an array of numbers. Some even, some odd.\n2. Iterate the array and invoke the `evenOrOdd` passing the current number as the argument.\n3. Use `console.log` to display the result in the Developer Console.",
+      "id": 17
     }
   ]
 }
