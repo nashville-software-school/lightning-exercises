@@ -111,6 +111,13 @@
       "instructions_basic": "1. Design a function named `evenOrOdd` that take a single number as an argument.\n2. It should return the string \"Even\" if the number is evenly divisible by two.\n3. It should return the string \"Odd\" if the number is not evenly divisible by two.\n\nUse the modulo - or remainder - operator in JavaScript to accomplish this.\nhttps://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#Remainder_()",
       "instructions_stretch": "1. Create an array of numbers. Some even, some odd.\n2. Iterate the array and invoke the `evenOrOdd` passing the current number as the argument.\n3. Use `console.log` to display the result in the Developer Console.",
       "id": 17
+    },
+    {
+      "concept": "DOM and string templates",
+      "language": "JavaScript",
+      "instructions_basic": "const bean = \"Colombian\"\nconst style = \"Espresso\"\nconst size = \"Medium\"\nconst customer = {\n    firstName: \"Johann\",\n    lastName: \"Abramovitz\"\n}\n\n// Use a string template that uses interpolation to generate the following string\n\"Medium Colombian Espresso is ready for Johann Abramovitz!!\"",
+      "instructions_stretch": "1. Create a `<div>` element in HTML and give it an id attribute value of `completedOrders`\n2. Update the `innerHTML` property of `div` with the message that you created above.",
+      "id": 18
     }
   ]
 }
