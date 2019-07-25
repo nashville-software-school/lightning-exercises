@@ -118,6 +118,13 @@
       "instructions_basic": "const bean = \"Colombian\"\nconst style = \"Espresso\"\nconst size = \"Medium\"\nconst customer = {\n    firstName: \"Johann\",\n    lastName: \"Abramovitz\"\n}\n\n// Use a string template that uses interpolation to generate the following string\n\"Medium Colombian Espresso is ready for Johann Abramovitz!!\"",
       "instructions_stretch": "1. Create a `<div>` element in HTML and give it an id attribute value of `completedOrders`\n2. Update the `innerHTML` property of `div` with the message that you created above.",
       "id": 18
+    },
+    {
+      "concept": "Basic modularization",
+      "language": "JavaScript",
+      "instructions_basic": "1. Create a new `modules` sub-directory in your lightning exercises directory.\n2. Create an HTML file and 4 JavaScript files named `main.js`, `dom.js`, `data.js`, and `factory.js`.\n3. In your HTML file, create an `<article id=\"jobs\">` element.\n4. In the `data.js` file, define a function that makes a fetch call to `https://api.stevebrownlee.com/jobs/` and `console.log()` the results.\n5. In the `factory.js` file, make a factory function named `createJobHTML` with one parameter which will accept a job object. Make the `createJobHTML` function return a `<section>` with the job role in a child `<h1>`, the organization in a child `<h2>`, and the city in a child `<aside>`.\n6. In the `dom.js` file, create a function named `renderJob` with one parameter which will accept an HTML string. The function should render that HTML string in the jobs article in your HTML file.\n7. In `main.js`, invoke your function that performs the fetch call to the API",
+      "instructions_stretch": "*STRETCH GOAL*\nPut all application logic in `main.js`, meaning all functions needed to get the jobs rendered in the DOM should be *invoked* in `main.js` and nowhere else.",
+      "id": 19
     }
   ]
 }
