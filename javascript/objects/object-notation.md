@@ -14,4 +14,4 @@ let hitchhikers_guide = {
 };
 ```
 
-Now access it using a variable called "meaning": `let meaning = "meaning_of_life"`
+Now access it with bracket notation using a variable called "meaning": `let meaning = "meaning_of_life"`
