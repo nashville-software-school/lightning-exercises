@@ -9,7 +9,7 @@ let painter = {
 }
 ```
 
-1. Add an action that the painter can perform.
+1. Add an action that the painter can perform ( a property whose value is a function ).
 2. Have her take that action by execucting the method you created.
 
 BONUS:
