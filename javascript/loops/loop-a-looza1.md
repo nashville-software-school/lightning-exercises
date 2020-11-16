@@ -7,6 +7,3 @@
 * output "Yoda says, "The greatest teacher, failure is"
 
 `let yoda_quote = ["the", "greatest", "teacher", "failure", "is"]`
-
-
-> Review these with students before doing loop-a-looza2
