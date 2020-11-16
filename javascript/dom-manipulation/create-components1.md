@@ -12,7 +12,7 @@ let family = [
     name: "Pat Jones",
     age: 50,
     title: "parent"
-  }
+  },
   {
     name: "Bubba Jones",
     age: 20,

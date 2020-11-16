@@ -1,6 +1,6 @@
-Loop through this object and add each customer object's key as a property called "id". Log the results.
+Loop through this object to create an array that contains all the name values. Log the results.
 
-```
+```js
 let customers = {
   active: {
     a87b6345: {
