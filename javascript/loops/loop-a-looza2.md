@@ -1,6 +1,6 @@
 >Only assign these after loop-a-looza1
 
-1) Choose a loop method of your choice to get this result from this array:
+1) Choose a loop method of your choice to get the expected result from this array:
 `let nums = [1, 2, 3, 4, "5", 6, "7"]`
 expected result:
 `[3, 5, 7, 9, 11, 13]`

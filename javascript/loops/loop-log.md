@@ -1,6 +1,6 @@
  Loop through this array of objects and console.log "_name_'s job title is _title_."
 
-```
+```js
 [
   {
     name: "Bob",

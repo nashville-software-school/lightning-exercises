@@ -1,6 +1,6 @@
 Use dot notation to access the value of the key "meaning_of_life" in this object
 
-```
+```js
 let hitchhikers_guide = {
     characters: ["Zaphod", "Arthur", "Ford", "Trillian"],
     catchphrase: "Don't Panic",
@@ -14,4 +14,4 @@ let hitchhikers_guide = {
 };
 ```
 
-Now access it with bracket notation using a variable called "meaning": `let meaning = "meaning_of_life"`
+Now access it using a variable called "meaning". `let meaning = "meaning_of_life"`
