@@ -3,18 +3,15 @@
 1. Complete the function below called `contactFactory`:
 * `contactFactory` returns an object with three properties: name, title, email.
 * Make `contactFactory` take a single argument, which will be treated as an array.
-* In the body of the function, loop over that array to set the values of the object's properties.
+* In the body of the function, set the values of the object's properties with the values in the contactData array.
 
 ```js
 const contactFactory = (contactData) => {
   let contact = {
-    name: null,
-    title: null,
-    email: null
+    name: contactData[0],
+    title: contactData[1],
+    email: contactData[2]
   }
-  for (let item in contactData) {
-     ///add each array item to contact
-   }
   return contact
 }
 ```
@@ -25,7 +22,7 @@ const contactFactory = (contactData) => {
 ```js
 const createContact = (name, title, email) => {
   let newContact = /// pass name, title, email to contactFactory as an array
-  console.table(Contact)
+  console.log(newContact)
 }
 ```
 3. Execute createContact and pass in a name, a title, and an email address. Check out your dev tools console for the resulting table of data.
